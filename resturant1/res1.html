@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="res1style.css">
+    <script src="res1script.js" defer></script>
 </head>
 <body>
     <h1>Panda Express</h1>
@@ -16,6 +17,7 @@
 
     <div class="topicitem">Student perks:</div>
     <div class="topicitem">Description of place: (hours, specialties, location, details)</div>
+    
     
     </div> 
 
@@ -30,6 +32,7 @@
       They specalize in chicken, with their teryaki, orange, honey, and spicy chicken all avaliable to you with some veggie options.
     They are located in the dining hall at UNCG on the first floor to the left if you come from the front, and if you come from the PETTY building it's on the right after going straight until you reach the doors, its pretty in the open
   so you don't have to go searching for it. You can also do take-out on it if you want to bring it home with no extra charge, they also have plenty of sauces to choose from which are neat. </div>
+
     </div>
 
     <h2>Recommended Dishes</h2>
@@ -37,7 +40,7 @@
     <div id="dishes">
 
   <div class="dish-card">
-    <div class="dishitem">Dish 1: The Gold Meal</div>
+    <div id="dish1" class="dishitem">Dish 1: The Gold Meal $3.99 or free with gold card<button id="btn1" class="food-btn" type="button">Favorite</button> </div>
     <div class="dishyap">
       <img src="res1img/mealone.webp" alt="">
       <p>This dish is probably one of the customer's most common and favorites
@@ -49,7 +52,7 @@
   </div>
 
   <div class="dish-card">
-    <div class="dishitem">Dish 2: Eggrolls</div>
+    <div id="dish2" class="dishitem">Dish 2: Eggrolls $6.99<button id="btn2" class="food-btn" type="button">Favorite</button></div>
     <div class="dishyap">
       <img src="res1img/eggroll.webp" alt="">
       <p>Eggsrolls are a standard at places like these, and ive always been a sucker for them
@@ -60,7 +63,7 @@
   </div>
 
   <div class="dish-card">
-    <div class="dishitem">Dish 3:Walnut honey shrimp</div>
+    <div id="dish3" class="dishitem">Dish 3:Walnut honey shrimp $7.99<button id="btn3" class="food-btn" type="button">Favorite</button></div>
     <div class="dishyap">
       <img src="res1img/shrimp.webp" alt="">
       <p>These were also something if I saw I would grab instantly, they have that nice sweet taste to them that
@@ -69,6 +72,13 @@
       </p>
     </div>
   </div>
+
+   <div id="favorites" class="cards">
+            <h2>Favorites:</h2>
+            <p id="fav1"></p>
+            <p id="fav2"></p>
+            <p id="fav3"></p>
+        </div>
 
 </div>
 
